@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "280761967661",
+    "firebase_url": "https://bhajan-app-android.firebaseio.com",
+    "project_id": "bhajan-app-android",
+    "storage_bucket": "bhajan-app-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280761967661:android:939c2c3bfcc6ff0cc704a4",
+        "android_client_info": {
+          "package_name": "com.infomantri.bhakti.bhajan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280761967661-rboriesl58bfrvoenp2dbrvnalm8v2d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO_EFyZMn51zl6giRZu83ctnCBcpXfhbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280761967661-rboriesl58bfrvoenp2dbrvnalm8v2d3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

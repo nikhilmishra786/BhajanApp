@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF7043</color>
+    <color name="colorPrimaryDark">#E65100</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="title">#4DB6AC</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="alert_dialog_text">#696969</color>
+
+    <color name="bhajan_title2">#C2185B</color>
+    <color name="bhajan_title6">#7B1FA2</color>
+
+    <color name="lightGrey">#B5D5D2D2</color>
+
+</resources>

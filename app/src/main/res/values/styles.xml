@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--  Splash Screen Style -->
+
+    <!-- Material Buttons-->
+
+    <style name="Widget.bhajan.BorderlessButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">0.025</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="Widget.bhajan.RaisedButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:fontFamily">@font/omnes_semibold</item>
+        <item name="android:letterSpacing">0.025</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <!-- Card View Style-->
+
+    <style name="ToolbarStyle" parent="AppTheme">
+        <item name="android:textAllCaps">false</item>
+        <item name="actionMenuTextColor">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Text Style-->
+    <style name="LoginEditTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_marginTop">@dimen/margin_8</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Widget.bhajan.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.bhajan.Body</item>
+    </style>
+
+    <style name="TextAppearance.bhajan.Body" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.bhajan.DialogContent" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAppearance">@style/TextStyleOmnesMedium</item>
+        <item name="android:textColor">@color/alert_dialog_text</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="TextStyleOmnesMedium" parent="Base.TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/omnes_medium</item>
+    </style>
+
+    <!--- Custom Dialog -->
+    <style name="Theme.CustomAlertDialog" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textViewStyle">@style/Widget.bhajan.TextView</item>
+    </style>
+
+    <style name="customDialog">
+        <item name="android:background">@drawable/dialog_bg</item>
+        <item name="android:elevation">12dp</item>
+    </style>
+
+    <style name="TextAppearance.bhajan.DialogTitle" parent="@style/TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textAppearance">@style/TextStyleOmnesMedium</item>
+        <item name="android:textColor">@color/title</item>
+    </style>
+
+</resources>
